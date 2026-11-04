@@ -5,7 +5,7 @@
 //!   infracalc-review combos  --layout <layout.json> --box <box.json> [--out c.json] [--md c.md] [--only <id>]
 //!   infracalc-review room    --layout <layout.json> --box <box.json> --room trade_1 --ops 巫恋,龙舌兰,卡夫卡 [--hours 24]
 //!
-//! 依赖 ArknightsInfraCalc-v3（path 依赖 ../ArknightsInfraCalc-v3）的效率评估函数，
+//! 依赖 ArknightsInfraCalc-v2（infra-core）的效率评估函数，
 //! 部分求解改造见 partial.rs。
 
 mod analyze;
