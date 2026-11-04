@@ -1,4 +1,4 @@
-//! 输入解析：干员盒（operbox）与 plan.compute 结果 JSON（schema v1–4 容忍读）。
+//! 输入解析：干员盒（operbox）与 plan.compute 结果 JSON（schema v1–7 容忍读）。
 
 use serde::Deserialize;
 use std::collections::HashMap;

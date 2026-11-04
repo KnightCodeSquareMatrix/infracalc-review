@@ -87,9 +87,9 @@ fn cmd_review(args: &[String]) -> Result<(), String> {
         emit(report, args);
         return Ok(());
     };
-    if !(1..=4).contains(&result.schema_version) {
+    if !(1..=7).contains(&result.schema_version) {
         findings.push(checks::protocol_finding(&format!(
-            "不支持的 plan result.schema_version={}（契约范围 1–4）",
+            "不支持的 plan result.schema_version={}（契约范围 1–7）",
             result.schema_version
         )));
     }
